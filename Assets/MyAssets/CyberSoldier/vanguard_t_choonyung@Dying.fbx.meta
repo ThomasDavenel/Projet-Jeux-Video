@@ -1,275 +1,17 @@
 fileFormatVersion: 2
-guid: cf3910b7639e12447827e45f63f60201
+guid: d54a50262c308ca44b712b0da683682b
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      1: 100000
-    second: Armature
-  - first:
-      1: 100002
-    second: Chest
-  - first:
-      1: 100004
-    second: //RootNode
-  - first:
-      1: 100006
-    second: CyberSoldier
-  - first:
-      1: 100008
-    second: FirstDistal.L
-  - first:
-      1: 100010
-    second: FirstDistal.R
-  - first:
-      1: 100012
-    second: FirstMiddle.L
-  - first:
-      1: 100014
-    second: FirstMiddle.R
-  - first:
-      1: 100016
-    second: FirstProximal.L
-  - first:
-      1: 100018
-    second: FirstProximal.R
-  - first:
-      1: 100020
-    second: Foot.L
-  - first:
-      1: 100022
-    second: Foot.R
-  - first:
-      1: 100024
-    second: Hand.L
-  - first:
-      1: 100026
-    second: Hand.R
-  - first:
-      1: 100028
-    second: Head
-  - first:
-      1: 100030
-    second: Hips
-  - first:
-      1: 100032
-    second: LowerArm.L
-  - first:
-      1: 100034
-    second: LowerArm.R
-  - first:
-      1: 100036
-    second: LowerLeg.L
-  - first:
-      1: 100038
-    second: LowerLeg.R
-  - first:
-      1: 100040
-    second: Neck
-  - first:
-      1: 100042
-    second: SecondDistal.L
-  - first:
-      1: 100044
-    second: SecondDistal.R
-  - first:
-      1: 100046
-    second: SecondMiddle.L
-  - first:
-      1: 100048
-    second: SecondMiddle.R
-  - first:
-      1: 100050
-    second: SecondProximal.L
-  - first:
-      1: 100052
-    second: SecondProximal.R
-  - first:
-      1: 100054
-    second: Shoulder.L
-  - first:
-      1: 100056
-    second: Shoulder.R
-  - first:
-      1: 100058
-    second: Spine
-  - first:
-      1: 100060
-    second: ThumbDistal.L
-  - first:
-      1: 100062
-    second: ThumbDistal.R
-  - first:
-      1: 100064
-    second: ThumbMiddle.L
-  - first:
-      1: 100066
-    second: ThumbMiddle.R
-  - first:
-      1: 100068
-    second: ThumbProximal.L
-  - first:
-      1: 100070
-    second: ThumbProximal.R
-  - first:
-      1: 100072
-    second: Toe.L
-  - first:
-      1: 100074
-    second: Toe.R
-  - first:
-      1: 100076
-    second: UpperArm.l
-  - first:
-      1: 100078
-    second: UpperArm.r
-  - first:
-      1: 100080
-    second: UpperLeg.L
-  - first:
-      1: 100082
-    second: UpperLeg.R
-  - first:
-      4: 400000
-    second: Armature
-  - first:
-      4: 400002
-    second: Chest
-  - first:
-      4: 400004
-    second: CyberSoldier
-  - first:
-      4: 400006
-    second: //RootNode
-  - first:
-      4: 400008
-    second: FirstDistal.L
-  - first:
-      4: 400010
-    second: FirstDistal.R
-  - first:
-      4: 400012
-    second: FirstMiddle.L
-  - first:
-      4: 400014
-    second: FirstMiddle.R
-  - first:
-      4: 400016
-    second: FirstProximal.L
-  - first:
-      4: 400018
-    second: FirstProximal.R
-  - first:
-      4: 400020
-    second: Foot.L
-  - first:
-      4: 400022
-    second: Foot.R
-  - first:
-      4: 400024
-    second: Hand.L
-  - first:
-      4: 400026
-    second: Hand.R
-  - first:
-      4: 400028
-    second: Head
-  - first:
-      4: 400030
-    second: Hips
-  - first:
-      4: 400032
-    second: LowerArm.L
-  - first:
-      4: 400034
-    second: LowerArm.R
-  - first:
-      4: 400036
-    second: LowerLeg.L
-  - first:
-      4: 400038
-    second: LowerLeg.R
-  - first:
-      4: 400040
-    second: Neck
-  - first:
-      4: 400042
-    second: SecondDistal.L
-  - first:
-      4: 400044
-    second: SecondDistal.R
-  - first:
-      4: 400046
-    second: SecondMiddle.L
-  - first:
-      4: 400048
-    second: SecondMiddle.R
-  - first:
-      4: 400050
-    second: SecondProximal.L
-  - first:
-      4: 400052
-    second: SecondProximal.R
-  - first:
-      4: 400054
-    second: Shoulder.L
-  - first:
-      4: 400056
-    second: Shoulder.R
-  - first:
-      4: 400058
-    second: Spine
-  - first:
-      4: 400060
-    second: ThumbDistal.L
-  - first:
-      4: 400062
-    second: ThumbDistal.R
-  - first:
-      4: 400064
-    second: ThumbMiddle.L
-  - first:
-      4: 400066
-    second: ThumbMiddle.R
-  - first:
-      4: 400068
-    second: ThumbProximal.L
-  - first:
-      4: 400070
-    second: ThumbProximal.R
-  - first:
-      4: 400072
-    second: Toe.L
-  - first:
-      4: 400074
-    second: Toe.R
-  - first:
-      4: 400076
-    second: UpperArm.l
-  - first:
-      4: 400078
-    second: UpperArm.r
-  - first:
-      4: 400080
-    second: UpperLeg.L
-  - first:
-      4: 400082
-    second: UpperLeg.R
-  - first:
-      43: 4300000
-    second: CyberSoldier
-  - first:
-      95: 9500000
-    second: //RootNode
-  - first:
-      137: 13700000
-    second: CyberSoldier
+      74: -203655887218126122
+    second: mixamo.com
   externalObjects: {}
   materials:
-    materialImportMode: 1
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -292,7 +34,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
@@ -300,11 +42,11 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importVisibility: 0
+    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
-    fileIdsGeneration: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -312,15 +54,15 @@ ModelImporter:
     weldVertices: 1
     bakeAxisConversion: 0
     preserveHierarchy: 0
-    skinWeightsMode: 0
+    skinWeightsMode: 1
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     meshOptimizationFlags: -1
-    indexFormat: 1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 0
+    secondaryUVMarginMethod: 1
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
@@ -328,9 +70,9 @@ ModelImporter:
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
-    tangentImportMode: 4
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
@@ -561,12 +303,12 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 0
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: cf3910b7639e12447827e45f63f60201, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
