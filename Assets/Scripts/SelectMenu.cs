@@ -12,7 +12,7 @@ public class SelectMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+           
     }
 
     // Update is called once per frame
@@ -48,11 +48,11 @@ public class SelectMenu : MonoBehaviour
         }
 
         //quit button
-        if (mousePos.x > buttonPos[2].transform.position.x - buttonWidth && mousePos.x < buttonPos[2].transform.position.x + buttonWidth)
+        if (mousePos.x > buttonPos[3].transform.position.x - buttonWidth && mousePos.x < buttonPos[3].transform.position.x + buttonWidth)
         {
-            if (mousePos.y > buttonPos[2].transform.position.y - buttonHeight && mousePos.y < buttonPos[2].transform.position.y + buttonHeight)
+            if (mousePos.y > buttonPos[3].transform.position.y - buttonHeight && mousePos.y < buttonPos[3].transform.position.y + buttonHeight)
             {
-                transform.position = buttonPos[2].transform.position;
+                transform.position = buttonPos[3].transform.position;
             }
         }
     }
