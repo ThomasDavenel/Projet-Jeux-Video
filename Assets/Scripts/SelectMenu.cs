@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class SelectMenu : MonoBehaviour
 {
-    Vector3 mousePos = Input.mousePosition;
+    private Vector3 mousePos;
+    public List<GameObject> buttonPos;
+    public float buttonWidth;
+    public float buttonHeight;
 
     // Start is called before the first frame update
     void Start()
@@ -15,28 +18,42 @@ public class SelectMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        mousePos = Input.mousePosition;
+
         //new game button
-        if(mousePos.x > 282.7f && mousePos.x < 442.7 && mousePos.y > 19 && mousePos.y < 49)
+        if (mousePos.x > buttonPos[0].transform.position.x - buttonWidth && mousePos.x < buttonPos[0].transform.position.x + buttonWidth)
         {
-            transform.position = new Vector3(mousePos.x, mousePos.y, transform.position.z);
+            if (mousePos.y > buttonPos[0].transform.position.y - buttonHeight && mousePos.y < buttonPos[0].transform.position.y + buttonHeight)
+            {
+                transform.position = buttonPos[0].transform.position;
+            }
         }
 
         //load game button
-        if (mousePos.x > 282.7f && mousePos.x < 442.7 && mousePos.y > -36 && mousePos.y < -6)
+        if (mousePos.x > buttonPos[1].transform.position.x - buttonWidth && mousePos.x < buttonPos[1].transform.position.x + buttonWidth)
         {
-
+            if (mousePos.y > buttonPos[1].transform.position.y - buttonHeight && mousePos.y < buttonPos[1].transform.position.y + buttonHeight)
+            {
+                transform.position = buttonPos[1].transform.position;
+            }
         }
 
         //controls button
-        if (mousePos.x > 282.7f && mousePos.x < 442.7 && mousePos.y > -90 && mousePos.y < -60)
+        if (mousePos.x > buttonPos[2].transform.position.x - buttonWidth && mousePos.x < buttonPos[2].transform.position.x + buttonWidth)
         {
-
+            if (mousePos.y > buttonPos[2].transform.position.y - buttonHeight && mousePos.y < buttonPos[2].transform.position.y + buttonHeight)
+            {
+                transform.position = buttonPos[2].transform.position;
+            }
         }
 
         //quit button
-        if (mousePos.x > 282.7f && mousePos.x < 442.7 && mousePos.y > -145 && mousePos.y < -115)
+        if (mousePos.x > buttonPos[2].transform.position.x - buttonWidth && mousePos.x < buttonPos[2].transform.position.x + buttonWidth)
         {
-
+            if (mousePos.y > buttonPos[2].transform.position.y - buttonHeight && mousePos.y < buttonPos[2].transform.position.y + buttonHeight)
+            {
+                transform.position = buttonPos[2].transform.position;
+            }
         }
     }
 }
