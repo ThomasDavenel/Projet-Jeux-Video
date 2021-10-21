@@ -11,12 +11,12 @@ public class InputController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Move_Front"))
+        if (Input.GetButtonDown("Move_Right"))
         {
             Debug.Log("Walk");
             RobotAnimator.SetTrigger("Walk");
         }
-        if (Input.GetButton("Move_Front"))
+        if (Input.GetButton("Move_Right"))
         {
             dt += Time.deltaTime;
             Move(dt);
@@ -25,6 +25,18 @@ public class InputController : MonoBehaviour
         {
             RobotAnimator.ResetTrigger("Walk");
             dt = 0;
+        }
+
+        if (Input.GetButtonDown("Move_Left"))
+        {
+            Debug.Log("Turn");
+            RobotAnimator.SetTrigger("Turn");
+        }
+
+        if (Input.GetButtonUp("Move_Right"))
+        {
+            Debug.Log("Stop");
+            RobotAnimator.SetTrigger("Stop");
         }
     }
 
