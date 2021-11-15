@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class InputController : MonoBehaviour
 {
@@ -10,68 +11,77 @@ public class InputController : MonoBehaviour
     public Animator RobotAnimator;
     private float dt;
     private Orientation m_orientation;
+    public bool isJumping;
+    private bool startJump;
     enum Orientation
     {
         Right,
         Left,
     }
 
-    private void Start()
+    private void Awake()
     {
         m_orientation = Orientation.Right;
+        isJumping = false;
+        startJump = false;
     }
 
     void Update()
     {
-        //Move
-        if (Input.GetButtonDown("Move_Right"))
+        if (!isJumping)
         {
-            if(m_orientation == Orientation.Left)
+            //Move
+            if (Input.GetButtonDown("Move_Right"))
             {
-                RobotAnimator.SetTrigger("WalkR");
-                m_orientation = Orientation.Right;
+                if (m_orientation == Orientation.Left)
+                {
+                    RobotAnimator.SetTrigger("WalkR");
+                    m_orientation = Orientation.Right;
+                }
+                else
+                {
+                    RobotAnimator.SetTrigger("WalkR");
+                }
             }
-            else
+
+            if (Input.GetButtonDown("Move_Left"))
             {
-                RobotAnimator.SetTrigger("WalkR");
+                if (m_orientation == Orientation.Right)
+                {
+                    RobotAnimator.SetTrigger("WalkL");
+                    m_orientation = Orientation.Left;
+                }
+                else
+                {
+                    RobotAnimator.SetTrigger("WalkL");
+                }
             }
-        }
-
-        if (Input.GetButtonDown("Move_Left"))
-        {
-            if (m_orientation == Orientation.Right)
+            if (Input.GetButton("Move_Right") || Input.GetButton("Move_Left"))
             {
-                RobotAnimator.SetTrigger("WalkL");
-                m_orientation = Orientation.Left;
+                dt += Time.deltaTime;
+                Move(dt);
             }
-            else
+
+            //STOP
+            if (Input.GetButtonUp("Move_Right"))
             {
-                RobotAnimator.SetTrigger("WalkL");
+                dt = 0;
+                RobotAnimator.SetTrigger("StopR");
             }
-        }
-        if (Input.GetButton("Move_Right") || Input.GetButton("Move_Left"))
-        {
-            dt += Time.deltaTime;
-            Move(dt);
-        }
+            if (Input.GetButtonUp("Move_Left"))
+            {
+                dt = 0;
+                RobotAnimator.SetTrigger("StopL");
 
-        //STOP
-        if (Input.GetButtonUp("Move_Right"))
-        {
-            dt = 0;
-            RobotAnimator.SetTrigger("StopR");
-        }
-        if (Input.GetButtonUp("Move_Left"))
-        {
-            dt = 0;
-            RobotAnimator.SetTrigger("StopL");
+            }
 
-        }
-
-        //Jump
-        if (Input.GetButtonDown("Jump"))
-        {
-            RobotAnimator.SetTrigger("Jump");
+            //Jump
+            if (Input.GetButtonDown("Jump"))
+            {
+                isJumping = true;
+                Jump();
+                RobotAnimator.SetTrigger("Jump");
+            }
         }
     }
 
@@ -89,5 +99,30 @@ public class InputController : MonoBehaviour
         float t = Mathf.Clamp(dtsqrt, 0, 2.5f)/50;
         if (m_orientation == Orientation.Left) t = -t;
         Character.transform.position += t * Character.transform.forward;
+    }
+
+    public void Jump()
+    {
+        Invoke("StartJump", 0.6f);
+        Invoke("EndJump", 1.8f);
+    }
+
+    public void StartJump()
+    {
+        Character.GetComponent<Rigidbody>().useGravity = false;
+        startJump = true;
+    }
+    public void EndJump()
+    {
+        Character.GetComponent<Rigidbody>().useGravity = true;
+        startJump = false;
+    }
+
+    private void FixedUpdate()
+    {
+        if (startJump)
+        {
+            Character.transform.position += 0.07f * Character.transform.up;
+        }
     }
 }
