@@ -80,7 +80,25 @@ public class InputController : MonoBehaviour
             {
                 isJumping = true;
                 Jump();
-                RobotAnimator.SetTrigger("Jump");
+                if (m_orientation == Orientation.Right)
+                {
+                    RobotAnimator.SetTrigger("JumpR");
+                }
+                else
+                {
+                    RobotAnimator.SetTrigger("JumpL");
+                }
+            }
+        }
+        else
+        {
+            if (Input.GetButton("Move_Left"))
+            {
+                    Character.transform.position += 5 * Time.deltaTime * -Character.transform.forward;
+            }
+            if (Input.GetButton("Move_Right"))
+            {
+                    Character.transform.position += 5 * Time.deltaTime * Character.transform.forward;
             }
         }
     }
@@ -103,7 +121,7 @@ public class InputController : MonoBehaviour
 
     public void Jump()
     {
-        Invoke("StartJump", 0.6f);
+        Invoke("StartJump", 0.65f);
         Invoke("EndJump", 1.8f);
     }
 
@@ -123,6 +141,20 @@ public class InputController : MonoBehaviour
         if (startJump)
         {
             Character.transform.position += 0.07f * Character.transform.up;
+        }
+    }
+
+    public void EndAnimJump()
+    {
+        isJumping = false;
+        Input.ResetInputAxes();
+        if (m_orientation == Orientation.Right)
+        {
+            RobotAnimator.SetTrigger("JumpRFin");
+        }
+        else
+        {
+            RobotAnimator.SetTrigger("JumpLFin");
         }
     }
 }
