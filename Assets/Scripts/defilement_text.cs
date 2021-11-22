@@ -22,12 +22,12 @@ public class defilement_text : MonoBehaviour
 
     void OnGUI()
     {
-        scrollposition.y += 5.0f * Time.deltaTime;
-        if (scrollposition.y > nblines*50) scrollposition.y = 0.0f;
+        scrollposition.y += 8.0f * Time.deltaTime;
+        if (scrollposition.y > nblines*130) scrollposition.y = 0.0f;
 
         GUI.contentColor = new Color(0.384313725f, 0.729411765f, 1);
-        GUI.BeginScrollView(new Rect(0, 0, 500, 200), scrollposition, new Rect(0, 0, 500, nblines*50), false, true);
-        GUI.Label(new Rect(0, 50, 500, nblines*50), scenar);
+        GUI.BeginScrollView(new Rect(Screen.width/3, Screen.height/2, 520, 200), scrollposition, new Rect(0, -150, 500, nblines*130), false, true);
+        GUI.Label(new Rect(0, 50, 500, nblines*40), scenar);
         GUI.EndScrollView();
     }
 
