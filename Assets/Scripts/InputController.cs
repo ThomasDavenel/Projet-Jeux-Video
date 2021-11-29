@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -38,15 +39,13 @@ public class InputController : MonoBehaviour
             {
                 if (m_orientation == Orientation.Left)
                 {
-                    RobotAnimator.ResetTrigger("StopL");
-                    RobotAnimator.ResetTrigger("StopR");
+                    resetAllTriggers();
                     RobotAnimator.SetTrigger("WalkR");
                     m_orientation = Orientation.Right;
                 }
                 else
                 {
-                    RobotAnimator.ResetTrigger("StopL");
-                    RobotAnimator.ResetTrigger("StopR");
+                    resetAllTriggers();
                     RobotAnimator.SetTrigger("WalkR");
                 }
             }
@@ -55,15 +54,13 @@ public class InputController : MonoBehaviour
             {
                 if (m_orientation == Orientation.Right)
                 {
-                    RobotAnimator.ResetTrigger("StopL");
-                    RobotAnimator.ResetTrigger("StopR");
+                    resetAllTriggers(); 
                     RobotAnimator.SetTrigger("WalkL");
                     m_orientation = Orientation.Left;
                 }
                 else
                 {
-                    RobotAnimator.ResetTrigger("StopL");
-                    RobotAnimator.ResetTrigger("StopR");
+                    resetAllTriggers();
                     RobotAnimator.SetTrigger("WalkL");
                 }
             }
@@ -77,12 +74,14 @@ public class InputController : MonoBehaviour
             if (Input.GetButtonUp("Move_Right") && m_orientation== Orientation.Right)
             {
                 dt = 0;
+                resetAllTriggers();
                 RobotAnimator.SetTrigger("StopR");
                 Input.ResetInputAxes();
             }
             if (Input.GetButtonUp("Move_Left") && m_orientation == Orientation.Left)
             {
                 dt = 0;
+                resetAllTriggers();
                 RobotAnimator.SetTrigger("StopL");
                 Input.ResetInputAxes();
             }
@@ -95,10 +94,12 @@ public class InputController : MonoBehaviour
                 Jump();
                 if (m_orientation == Orientation.Right)
                 {
+                    resetAllTriggers();
                     RobotAnimator.SetTrigger("JumpR");
                 }
                 else
                 {
+                    resetAllTriggers();
                     RobotAnimator.SetTrigger("JumpL");
                 }
             }
@@ -135,8 +136,8 @@ public class InputController : MonoBehaviour
 
     public void Jump()
     {
-        Invoke("StartJump", 0.65f);
-        Invoke("EndJump", 1.5f);
+        Invoke("StartJump", 0.4f);
+        Invoke("EndJump", 0.8f);
     }
 
     public void StartJump()
@@ -151,12 +152,15 @@ public class InputController : MonoBehaviour
         noFloor = true;
     }
 
+    private float dtJump=0;
     private void FixedUpdate()
     {
         if (startJump)
         {
-            Character.transform.position += coefJump * Character.transform.up;
+            dtJump += Time.deltaTime;
+            Character.transform.position += ((dtJump* dtJump)) * coefJump * Character.transform.up;
         }
+        dtJump = 0;
     }
 
     public void EndAnimJump()
@@ -171,6 +175,17 @@ public class InputController : MonoBehaviour
         else
         {
             RobotAnimator.SetTrigger("JumpLFin");
+        }
+    }
+
+    private void resetAllTriggers()
+    {
+        foreach (var trigger in RobotAnimator.parameters)
+        {
+            if (trigger.type == AnimatorControllerParameterType.Trigger)
+            {
+                RobotAnimator.ResetTrigger(trigger.name);
+            }
         }
     }
 }
