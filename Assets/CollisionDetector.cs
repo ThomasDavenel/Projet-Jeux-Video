@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class CollisionDetector : MonoBehaviour
 {
-    public InputController inputController;
+    InputController inputController;
+    private void Awake()
+    {
+        inputController = GameObject.FindObjectOfType<InputController>();
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (inputController.isJumping)
+        if (inputController.noFloor)
         {
             inputController.EndAnimJump();
         }
