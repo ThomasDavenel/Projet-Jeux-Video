@@ -26,7 +26,6 @@ public class defilement_text : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
-        Debug.Log("oui");
         SceneManager.LoadScene(sceneName);
     }
 

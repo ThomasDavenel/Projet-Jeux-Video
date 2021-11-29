@@ -22,6 +22,8 @@ public class SelectMenu : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     public void OnPointerEnter(PointerEventData eventData)
     {
         GetComponent<Image>().color = new Color(1, 0.5812477f, 0.2962264f, 0.3921569f);
+        GetComponent<AudioSource>().enabled = true; ;
+        GetComponent<AudioSource>().Play();
     }
 
     public void OnPointerExit(PointerEventData eventData)
