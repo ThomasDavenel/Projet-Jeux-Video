@@ -10,12 +10,13 @@ public class InputController : MonoBehaviour
 {
     public GameObject Character;
     public Animator RobotAnimator;
-    private float dt;
     private Orientation m_orientation;
     private bool isJumping;
     public bool noFloor;
     private bool startJump;
     public float coefJump = 0.08f;
+
+    private bool turn;
     enum Orientation
     {
         Right,
@@ -28,6 +29,7 @@ public class InputController : MonoBehaviour
         isJumping = false;
         startJump = false;
         noFloor = false;
+        turn = false;
     }
 
     void Update()
@@ -39,6 +41,7 @@ public class InputController : MonoBehaviour
             {
                 if (m_orientation == Orientation.Left)
                 {
+                    turn = true;
                     resetAllTriggers();
                     RobotAnimator.SetTrigger("WalkR");
                     m_orientation = Orientation.Right;
@@ -54,6 +57,7 @@ public class InputController : MonoBehaviour
             {
                 if (m_orientation == Orientation.Right)
                 {
+                    turn = true;
                     resetAllTriggers(); 
                     RobotAnimator.SetTrigger("WalkL");
                     m_orientation = Orientation.Left;
@@ -64,23 +68,20 @@ public class InputController : MonoBehaviour
                     RobotAnimator.SetTrigger("WalkL");
                 }
             }
-            if (Input.GetButton("Move_Right") || Input.GetButton("Move_Left"))
+            if ((Input.GetButton("Move_Right") || Input.GetButton("Move_Left")) && !turn)
             {
-                dt += Time.deltaTime;
                 Move(Time.deltaTime);
             }
 
             //STOP
             if (Input.GetButtonUp("Move_Right") && m_orientation== Orientation.Right)
             {
-                dt = 0;
                 resetAllTriggers();
                 RobotAnimator.SetTrigger("StopR");
                 Input.ResetInputAxes();
             }
             if (Input.GetButtonUp("Move_Left") && m_orientation == Orientation.Left)
             {
-                dt = 0;
                 resetAllTriggers();
                 RobotAnimator.SetTrigger("StopL");
                 Input.ResetInputAxes();
@@ -89,7 +90,6 @@ public class InputController : MonoBehaviour
             //Jump
             if (Input.GetButtonDown("Jump"))
             {
-                dt = 0;
                 isJumping = true;
                 Jump();
                 if (m_orientation == Orientation.Right)
@@ -118,17 +118,7 @@ public class InputController : MonoBehaviour
     }
 
     public void Move(float dt)
-    {/*
-        float dtsqrt;
-        if (dt < 0.5)
-        {
-            dtsqrt = dt;
-        }
-        else
-        {
-            dtsqrt = (float)Math.Pow(dt, 2);
-        }
-        */
+    {
         float t = 5*dt;
         if (m_orientation == Orientation.Left) t = -t;
         Character.transform.position += t * Character.transform.forward;
@@ -153,14 +143,30 @@ public class InputController : MonoBehaviour
     }
 
     private float dtJump=0;
+    private float dtTurn = 0;
     private void FixedUpdate()
     {
         if (startJump)
         {
             dtJump += Time.deltaTime;
-            Character.transform.position += ((dtJump* dtJump)) * coefJump * Character.transform.up;
+            Character.transform.position +=(dtJump * dtJump) * coefJump * Character.transform.up;
         }
-        dtJump = 0;
+        else
+        {
+            dtJump = 0;
+        }
+        if (turn)
+        {
+            dtTurn += Time.deltaTime;
+            if (dtTurn > 0.1)
+            {
+                turn = false;
+            }
+        }
+        else
+        {
+            dtTurn = 0;
+        }
     }
 
     public void EndAnimJump()
