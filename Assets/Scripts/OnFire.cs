@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class OnFire : MonoBehaviour
 {
+    public GameObject bullet;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,8 @@ public class OnFire : MonoBehaviour
         {
             GetComponent<AudioSource>().enabled = true;
             GetComponent<AudioSource>().Play();
+
+            Instantiate(bullet, transform);
         }
     }
 }
