@@ -10,6 +10,7 @@ public class bullet : MonoBehaviour
         parent = GameObject.FindGameObjectWithTag("ListBullet");
         transform.SetParent(parent.transform);
     }
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
