@@ -17,8 +17,10 @@ public class Shoot : MonoBehaviour
     private float radius = 1;
 
     public GameObject Bullet;
+    public Transform bulletTransform;
     private Dictionary<GameObject, float> l_Bullet;
 
+    public bool player;
 
     private void Awake()
     {
@@ -39,28 +41,44 @@ public class Shoot : MonoBehaviour
         {
             isReadyToShoot = true;
         }
-
-        //turn raycast
-        foreach (GameObject p in l_Joueurs)
+        if (player)
         {
-            RaycastHit hitTurn;
-            if (Physics.Raycast(transform.position, Vector3.Normalize(p.transform.position - transform.position), out hitTurn, rayDistance))
+            if (Input.GetMouseButtonDown(0))
             {
-                if (hitTurn.collider.gameObject.CompareTag("Player"))
+                if (GetComponent<AudioSource>())
                 {
-                    transform.LookAt(hitTurn.transform);
-                    if (isReadyToShoot)
+                    GetComponent<AudioSource>().enabled = true;
+                    GetComponent<AudioSource>().Play();
+                }
+                GameObject b = Instantiate(Bullet, bulletTransform);
+                l_Bullet.Add(b, 0);
+            }
+        }
+        else
+        {
+            //turn raycast
+            foreach (GameObject p in l_Joueurs)
+            {
+                RaycastHit hitTurn;
+                if (Physics.Raycast(transform.position, Vector3.Normalize(p.transform.position - transform.position), out hitTurn, rayDistance))
+                {
+                    if (hitTurn.collider.gameObject.CompareTag("Player"))
                     {
-                        isReadyToShoot = false;
-                        dtShoot = 0;
-                        //print("Shoot");
-                        GameObject b = Instantiate(Bullet,transform.GetChild(0));
-                        b.transform.parent = transform;
-                        l_Bullet.Add(b, 0);
+                        transform.LookAt(hitTurn.transform);
+                        if (isReadyToShoot)
+                        {
+                            isReadyToShoot = false;
+                            dtShoot = 0;
+                            //print("Shoot");
+                            GameObject b = Instantiate(Bullet, bulletTransform);
+                            l_Bullet.Add(b, 0);
+                        }
                     }
                 }
-            }
-        };
+            };
+        }
+        
+
         List<GameObject> bulletToDestroy = new List<GameObject>();
         List<GameObject> bulletToInc = new List<GameObject>();
         foreach (KeyValuePair<GameObject,float> bullet in l_Bullet)
