@@ -55,7 +55,6 @@ public class Shoot : MonoBehaviour
                         dtShoot = 0;
                         //print("Shoot");
                         GameObject b = Instantiate(Bullet,transform.GetChild(0));
-                        b.transform.parent = transform;
                         l_Bullet.Add(b, 0);
                     }
                 }
