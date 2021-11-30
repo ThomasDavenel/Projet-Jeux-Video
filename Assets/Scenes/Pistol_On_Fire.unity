@@ -317,6 +317,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!4 &235917038 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f7009b972f3312b4f9dd0f1edfb1d66b, type: 3}
+  m_PrefabInstance: {fileID: 1625702993}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &235917039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,10 +331,45 @@ MonoBehaviour:
   m_GameObject: {fileID: 235917036}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c62f36e7be04e334299d1d8846198d8a, type: 3}
+  m_Script: {fileID: 11500000, guid: de09305fefad76844af4664132c49350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 1083528588945699548, guid: 12f164f0feeb3cf4a87f900cb8922d64, type: 3}
+  rayDistance: 20
+  speedBullet: 30
+  l_Joueurs: []
+  Bullet: {fileID: 1083528588945699548, guid: 12f164f0feeb3cf4a87f900cb8922d64, type: 3}
+  bulletTransform: {fileID: 0}
+  player: 1
+--- !u!1 &362855463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 362855464}
+  m_Layer: 0
+  m_Name: empty
+  m_TagString: ListBullet
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &362855464
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362855463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0081889825, y: 0.40625262, z: -4.5098453}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &443691603
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,6 +452,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1039414506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1039414507}
+  m_Layer: 0
+  m_Name: Sphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1039414507
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039414506}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.649, y: 0.313, z: 0.236}
+  m_LocalScale: {x: 0.04656963, y: 0.04656963, z: 0.04656963}
+  m_Children: []
+  m_Father: {fileID: 235917038}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1625702993
 PrefabInstance:

@@ -13,7 +13,6 @@ public class defilement_text : MonoBehaviour
     private float nblines = 5.1f;
 
     public GameObject m_camera;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +32,7 @@ public class defilement_text : MonoBehaviour
     {
         if (m_camera.transform.position.z > -50)
         {
+            GetComponent<AudioSource>().enabled = true;
             scrollposition.y += 8.0f * Time.deltaTime;
             if (scrollposition.y > nblines * 90) LoadScene("Menu");
 
