@@ -1710,7 +1710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectToFolow: {fileID: 1580682305}
-  view: {x: -5, y: 2, z: 0}
+  view: {x: -7, y: 2, z: 0}
   offset: {x: 0, y: 2, z: 0}
 --- !u!1001 &1563922528
 PrefabInstance:
@@ -1886,7 +1886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5344583249326143563, guid: 4866a174feecf7c4da327be88811f314, type: 3}
       propertyPath: coefJump
-      value: 500
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 5344583249326143563, guid: 4866a174feecf7c4da327be88811f314, type: 3}
       propertyPath: Character

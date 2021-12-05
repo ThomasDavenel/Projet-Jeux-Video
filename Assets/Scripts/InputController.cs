@@ -16,6 +16,8 @@ public class InputController : MonoBehaviour
     private bool startJump;
     public float coefJump = 0.08f;
 
+    private float lastY;
+
     private bool turn;
     enum Orientation
     {
@@ -30,12 +32,20 @@ public class InputController : MonoBehaviour
         startJump = false;
         noFloor = false;
         turn = false;
+        lastY = Character.transform.position.y;
     }
 
     void Update()
     {
+
         if (!isJumping)
         {
+            //Check if falling
+            if(lastY- Character.transform.position.y > 0.001)
+            {
+                CheckIfJumping();
+            }
+            lastY = Character.transform.position.y;
             //Move
             if (Input.GetButtonDown("Move_Right"))
             {
@@ -149,7 +159,15 @@ public class InputController : MonoBehaviour
         if (startJump)
         {
             dtJump += Time.deltaTime;
-            Character.transform.position +=(dtJump * dtJump) * coefJump * Character.transform.up;
+            Character.transform.position += coefJump * (float)Math.Pow(1 - dtJump, 2) * Character.transform.up;
+            if(m_orientation == Orientation.Right)
+            {
+                Character.transform.position += 3 * Time.deltaTime * Character.transform.forward;
+            }
+            else if(m_orientation == Orientation.Left)
+            {
+                Character.transform.position += 3 * Time.deltaTime * -Character.transform.forward;
+            }
         }
         else
         {
@@ -158,7 +176,7 @@ public class InputController : MonoBehaviour
         if (turn)
         {
             dtTurn += Time.deltaTime;
-            if (dtTurn > 0.1)
+            if (dtTurn > 0.15)
             {
                 turn = false;
             }
@@ -171,8 +189,8 @@ public class InputController : MonoBehaviour
 
     public void EndAnimJump()
     {
-        noFloor = false;
         isJumping = false;
+        Invoke("resetParamAfterEndAnimJump", 0.2f);
         Input.ResetInputAxes();
         if (m_orientation == Orientation.Right)
         {
@@ -183,6 +201,10 @@ public class InputController : MonoBehaviour
             RobotAnimator.SetTrigger("JumpLFin");
         }
     }
+    private void resetParamAfterEndAnimJump()
+    {
+        noFloor = false;
+    }
 
     private void resetAllTriggers()
     {
@@ -192,6 +214,17 @@ public class InputController : MonoBehaviour
             {
                 RobotAnimator.ResetTrigger(trigger.name);
             }
+        }
+    }
+
+    public void CheckIfJumping()
+    {
+        if (!noFloor)
+        {
+            isJumping = true;
+            noFloor =true;
+            if(m_orientation == Orientation.Right)RobotAnimator.SetTrigger("Fall_R");
+            else if(m_orientation == Orientation.Left) RobotAnimator.SetTrigger("Fall_L");
         }
     }
 }
