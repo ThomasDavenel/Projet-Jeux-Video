@@ -41,7 +41,8 @@ public class InputController : MonoBehaviour
         if (!isJumping)
         {
             //Check if falling
-            if(lastY- Character.transform.position.y > 0.001)
+            //In progress
+            if(lastY- Character.transform.position.y > 0.001 && false)
             {
                 CheckIfJumping();
             }
