@@ -19,6 +19,8 @@ public class InputController : MonoBehaviour
     private float lastY;
 
     private bool turn;
+
+    private ParticleSystem[] l_particule;
     enum Orientation
     {
         Right,
@@ -33,6 +35,7 @@ public class InputController : MonoBehaviour
         noFloor = false;
         turn = false;
         lastY = Character.transform.position.y;
+        l_particule = Character.GetComponentsInChildren<ParticleSystem>();
     }
 
     void Update()
@@ -101,6 +104,12 @@ public class InputController : MonoBehaviour
             //Jump
             if (Input.GetButtonDown("Jump"))
             {
+                //PARTICULE
+                foreach(ParticleSystem p in l_particule)
+                {
+                    p.Play();
+                }
+
                 isJumping = true;
                 Jump();
                 if (m_orientation == Orientation.Right)

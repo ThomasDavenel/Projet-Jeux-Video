@@ -27,7 +27,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips
+    path: Armature/Hips
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -79,7 +79,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine
+    path: Armature/Hips/Spine
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -131,7 +131,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest
+    path: Armature/Hips/Spine/Chest
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -183,7 +183,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Neck
+    path: Armature/Hips/Spine/Chest/Neck
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -208,7 +208,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -314,7 +314,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -447,7 +447,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -553,7 +553,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -614,7 +614,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -675,7 +675,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L/FirstMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L/FirstMiddle.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -736,7 +736,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -797,7 +797,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L/SecondMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L/SecondMiddle.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -813,7 +813,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -829,7 +829,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L/ThumbMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L/ThumbMiddle.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -881,7 +881,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -960,7 +960,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1066,7 +1066,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1154,7 +1154,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1215,7 +1215,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1276,7 +1276,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R/FirstMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R/FirstMiddle.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1337,7 +1337,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1398,7 +1398,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R/SecondMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R/SecondMiddle.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1414,7 +1414,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1430,7 +1430,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R/ThumbMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R/ThumbMiddle.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1482,7 +1482,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/UpperLeg.L
+    path: Armature/Hips/UpperLeg.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1534,7 +1534,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/UpperLeg.L/LowerLeg.L
+    path: Armature/Hips/UpperLeg.L/LowerLeg.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1595,7 +1595,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/UpperLeg.L/LowerLeg.L/Foot.L
+    path: Armature/Hips/UpperLeg.L/LowerLeg.L/Foot.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1656,7 +1656,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/UpperLeg.R
+    path: Armature/Hips/UpperLeg.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1717,7 +1717,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/UpperLeg.R/LowerLeg.R
+    path: Armature/Hips/UpperLeg.R/LowerLeg.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1769,7 +1769,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hips/UpperLeg.R/LowerLeg.R/Foot.R
+    path: Armature/Hips/UpperLeg.R/LowerLeg.R/Foot.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4995,7 +4995,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips
+    path: Armature/Hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5014,7 +5014,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips
+    path: Armature/Hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5033,7 +5033,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips
+    path: Armature/Hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5052,7 +5052,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips
+    path: Armature/Hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5107,7 +5107,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine
+    path: Armature/Hips/Spine
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5162,7 +5162,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine
+    path: Armature/Hips/Spine
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5217,7 +5217,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine
+    path: Armature/Hips/Spine
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5272,7 +5272,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine
+    path: Armature/Hips/Spine
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5327,7 +5327,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest
+    path: Armature/Hips/Spine/Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5382,7 +5382,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest
+    path: Armature/Hips/Spine/Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5437,7 +5437,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest
+    path: Armature/Hips/Spine/Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5492,7 +5492,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest
+    path: Armature/Hips/Spine/Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5547,7 +5547,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Neck
+    path: Armature/Hips/Spine/Chest/Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5602,7 +5602,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Neck
+    path: Armature/Hips/Spine/Chest/Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5657,7 +5657,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Neck
+    path: Armature/Hips/Spine/Chest/Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5712,7 +5712,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Neck
+    path: Armature/Hips/Spine/Chest/Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5740,7 +5740,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5768,7 +5768,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5796,7 +5796,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5824,7 +5824,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5933,7 +5933,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6042,7 +6042,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6151,7 +6151,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6260,7 +6260,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6396,7 +6396,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6532,7 +6532,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6668,7 +6668,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6804,7 +6804,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6913,7 +6913,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7022,7 +7022,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7131,7 +7131,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7240,7 +7240,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7304,7 +7304,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7368,7 +7368,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7432,7 +7432,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7496,7 +7496,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7560,7 +7560,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L/FirstMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L/FirstMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7624,7 +7624,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L/FirstMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L/FirstMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7688,7 +7688,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L/FirstMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L/FirstMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7752,7 +7752,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L/FirstMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L/FirstMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7816,7 +7816,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7880,7 +7880,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7944,7 +7944,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8008,7 +8008,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8072,7 +8072,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L/SecondMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L/SecondMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8136,7 +8136,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L/SecondMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L/SecondMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8200,7 +8200,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L/SecondMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L/SecondMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8264,7 +8264,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L/SecondMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L/SecondMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8283,7 +8283,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8302,7 +8302,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8321,7 +8321,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8340,7 +8340,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8359,7 +8359,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L/ThumbMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L/ThumbMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8378,7 +8378,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L/ThumbMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L/ThumbMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8397,7 +8397,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L/ThumbMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L/ThumbMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8416,7 +8416,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L/ThumbMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L/ThumbMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8471,7 +8471,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8526,7 +8526,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8581,7 +8581,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8636,7 +8636,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8718,7 +8718,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8800,7 +8800,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8882,7 +8882,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8964,7 +8964,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9073,7 +9073,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9182,7 +9182,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9291,7 +9291,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9400,7 +9400,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9491,7 +9491,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9582,7 +9582,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9673,7 +9673,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9764,7 +9764,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9828,7 +9828,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9892,7 +9892,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9956,7 +9956,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10020,7 +10020,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10084,7 +10084,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R/FirstMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R/FirstMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10148,7 +10148,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R/FirstMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R/FirstMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10212,7 +10212,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R/FirstMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R/FirstMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10276,7 +10276,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R/FirstMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R/FirstMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10340,7 +10340,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10404,7 +10404,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10468,7 +10468,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10532,7 +10532,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10596,7 +10596,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R/SecondMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R/SecondMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10660,7 +10660,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R/SecondMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R/SecondMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10724,7 +10724,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R/SecondMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R/SecondMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10788,7 +10788,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R/SecondMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R/SecondMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10807,7 +10807,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10826,7 +10826,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10845,7 +10845,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10864,7 +10864,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10883,7 +10883,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R/ThumbMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R/ThumbMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10902,7 +10902,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R/ThumbMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R/ThumbMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10921,7 +10921,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R/ThumbMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R/ThumbMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10940,7 +10940,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R/ThumbMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R/ThumbMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10995,7 +10995,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/UpperLeg.L
+    path: Armature/Hips/UpperLeg.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11050,7 +11050,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/UpperLeg.L
+    path: Armature/Hips/UpperLeg.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11105,7 +11105,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/UpperLeg.L
+    path: Armature/Hips/UpperLeg.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11160,7 +11160,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/UpperLeg.L
+    path: Armature/Hips/UpperLeg.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11215,7 +11215,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/UpperLeg.L/LowerLeg.L
+    path: Armature/Hips/UpperLeg.L/LowerLeg.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11270,7 +11270,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/UpperLeg.L/LowerLeg.L
+    path: Armature/Hips/UpperLeg.L/LowerLeg.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11325,7 +11325,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/UpperLeg.L/LowerLeg.L
+    path: Armature/Hips/UpperLeg.L/LowerLeg.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11380,7 +11380,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/UpperLeg.L/LowerLeg.L
+    path: Armature/Hips/UpperLeg.L/LowerLeg.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11444,7 +11444,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/UpperLeg.L/LowerLeg.L/Foot.L
+    path: Armature/Hips/UpperLeg.L/LowerLeg.L/Foot.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11508,7 +11508,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/UpperLeg.L/LowerLeg.L/Foot.L
+    path: Armature/Hips/UpperLeg.L/LowerLeg.L/Foot.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11572,7 +11572,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/UpperLeg.L/LowerLeg.L/Foot.L
+    path: Armature/Hips/UpperLeg.L/LowerLeg.L/Foot.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11636,7 +11636,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/UpperLeg.L/LowerLeg.L/Foot.L
+    path: Armature/Hips/UpperLeg.L/LowerLeg.L/Foot.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11700,7 +11700,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/UpperLeg.R
+    path: Armature/Hips/UpperLeg.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11764,7 +11764,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/UpperLeg.R
+    path: Armature/Hips/UpperLeg.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11828,7 +11828,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/UpperLeg.R
+    path: Armature/Hips/UpperLeg.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11892,7 +11892,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/UpperLeg.R
+    path: Armature/Hips/UpperLeg.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11956,7 +11956,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/UpperLeg.R/LowerLeg.R
+    path: Armature/Hips/UpperLeg.R/LowerLeg.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12020,7 +12020,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/UpperLeg.R/LowerLeg.R
+    path: Armature/Hips/UpperLeg.R/LowerLeg.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12084,7 +12084,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/UpperLeg.R/LowerLeg.R
+    path: Armature/Hips/UpperLeg.R/LowerLeg.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12148,7 +12148,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/UpperLeg.R/LowerLeg.R
+    path: Armature/Hips/UpperLeg.R/LowerLeg.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12203,7 +12203,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Hips/UpperLeg.R/LowerLeg.R/Foot.R
+    path: Armature/Hips/UpperLeg.R/LowerLeg.R/Foot.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12258,7 +12258,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Hips/UpperLeg.R/LowerLeg.R/Foot.R
+    path: Armature/Hips/UpperLeg.R/LowerLeg.R/Foot.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12313,7 +12313,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Hips/UpperLeg.R/LowerLeg.R/Foot.R
+    path: Armature/Hips/UpperLeg.R/LowerLeg.R/Foot.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12368,7 +12368,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Hips/UpperLeg.R/LowerLeg.R/Foot.R
+    path: Armature/Hips/UpperLeg.R/LowerLeg.R/Foot.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12836,7 +12836,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips
+    path: Armature/Hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12855,7 +12855,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips
+    path: Armature/Hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12874,7 +12874,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips
+    path: Armature/Hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12929,7 +12929,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine
+    path: Armature/Hips/Spine
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12984,7 +12984,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine
+    path: Armature/Hips/Spine
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13039,7 +13039,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine
+    path: Armature/Hips/Spine
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13094,7 +13094,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest
+    path: Armature/Hips/Spine/Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13149,7 +13149,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest
+    path: Armature/Hips/Spine/Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13204,7 +13204,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest
+    path: Armature/Hips/Spine/Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13259,7 +13259,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Neck
+    path: Armature/Hips/Spine/Chest/Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13314,7 +13314,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Neck
+    path: Armature/Hips/Spine/Chest/Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13369,7 +13369,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Neck
+    path: Armature/Hips/Spine/Chest/Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13397,7 +13397,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13425,7 +13425,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13453,7 +13453,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13562,7 +13562,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13671,7 +13671,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13780,7 +13780,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13916,7 +13916,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14052,7 +14052,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14188,7 +14188,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14297,7 +14297,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14406,7 +14406,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14515,7 +14515,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14579,7 +14579,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14643,7 +14643,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14707,7 +14707,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14771,7 +14771,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L/FirstMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L/FirstMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14835,7 +14835,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L/FirstMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L/FirstMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14899,7 +14899,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L/FirstMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/FirstProximal.L/FirstMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14963,7 +14963,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15027,7 +15027,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15091,7 +15091,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15155,7 +15155,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L/SecondMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L/SecondMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15219,7 +15219,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L/SecondMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L/SecondMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15283,7 +15283,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L/SecondMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/SecondProximal.L/SecondMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15302,7 +15302,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15321,7 +15321,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15340,7 +15340,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15359,7 +15359,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L/ThumbMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L/ThumbMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15378,7 +15378,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L/ThumbMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L/ThumbMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15397,7 +15397,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L/ThumbMiddle.L
+    path: Armature/Hips/Spine/Chest/Shoulder.L/UpperArm.l/LowerArm.L/Hand.L/ThumbProximal.L/ThumbMiddle.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15452,7 +15452,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15507,7 +15507,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15562,7 +15562,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15644,7 +15644,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15726,7 +15726,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15808,7 +15808,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -15917,7 +15917,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -16026,7 +16026,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -16135,7 +16135,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -16226,7 +16226,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -16317,7 +16317,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -16408,7 +16408,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -16472,7 +16472,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -16536,7 +16536,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -16600,7 +16600,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -16664,7 +16664,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R/FirstMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R/FirstMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -16728,7 +16728,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R/FirstMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R/FirstMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -16792,7 +16792,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R/FirstMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/FirstProximal.R/FirstMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -16856,7 +16856,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -16920,7 +16920,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -16984,7 +16984,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17048,7 +17048,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R/SecondMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R/SecondMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17112,7 +17112,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R/SecondMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R/SecondMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17176,7 +17176,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R/SecondMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/SecondProximal.R/SecondMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17195,7 +17195,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17214,7 +17214,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17233,7 +17233,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17252,7 +17252,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R/ThumbMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R/ThumbMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17271,7 +17271,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R/ThumbMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R/ThumbMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17290,7 +17290,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R/ThumbMiddle.R
+    path: Armature/Hips/Spine/Chest/Shoulder.R/UpperArm.r/LowerArm.R/Hand.R/ThumbProximal.R/ThumbMiddle.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17345,7 +17345,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/UpperLeg.L
+    path: Armature/Hips/UpperLeg.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17400,7 +17400,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/UpperLeg.L
+    path: Armature/Hips/UpperLeg.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17455,7 +17455,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/UpperLeg.L
+    path: Armature/Hips/UpperLeg.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17510,7 +17510,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/UpperLeg.L/LowerLeg.L
+    path: Armature/Hips/UpperLeg.L/LowerLeg.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17565,7 +17565,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/UpperLeg.L/LowerLeg.L
+    path: Armature/Hips/UpperLeg.L/LowerLeg.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17620,7 +17620,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/UpperLeg.L/LowerLeg.L
+    path: Armature/Hips/UpperLeg.L/LowerLeg.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17684,7 +17684,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/UpperLeg.L/LowerLeg.L/Foot.L
+    path: Armature/Hips/UpperLeg.L/LowerLeg.L/Foot.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17748,7 +17748,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/UpperLeg.L/LowerLeg.L/Foot.L
+    path: Armature/Hips/UpperLeg.L/LowerLeg.L/Foot.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17812,7 +17812,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/UpperLeg.L/LowerLeg.L/Foot.L
+    path: Armature/Hips/UpperLeg.L/LowerLeg.L/Foot.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17876,7 +17876,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/UpperLeg.R
+    path: Armature/Hips/UpperLeg.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17940,7 +17940,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/UpperLeg.R
+    path: Armature/Hips/UpperLeg.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -18004,7 +18004,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/UpperLeg.R
+    path: Armature/Hips/UpperLeg.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -18068,7 +18068,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/UpperLeg.R/LowerLeg.R
+    path: Armature/Hips/UpperLeg.R/LowerLeg.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -18132,7 +18132,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/UpperLeg.R/LowerLeg.R
+    path: Armature/Hips/UpperLeg.R/LowerLeg.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -18196,7 +18196,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/UpperLeg.R/LowerLeg.R
+    path: Armature/Hips/UpperLeg.R/LowerLeg.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -18251,7 +18251,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: Hips/UpperLeg.R/LowerLeg.R/Foot.R
+    path: Armature/Hips/UpperLeg.R/LowerLeg.R/Foot.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -18306,7 +18306,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: Hips/UpperLeg.R/LowerLeg.R/Foot.R
+    path: Armature/Hips/UpperLeg.R/LowerLeg.R/Foot.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -18361,7 +18361,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: Hips/UpperLeg.R/LowerLeg.R/Foot.R
+    path: Armature/Hips/UpperLeg.R/LowerLeg.R/Foot.R
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 1
