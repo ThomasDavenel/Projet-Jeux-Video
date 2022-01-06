@@ -20,7 +20,6 @@ public class IKControl : MonoBehaviour
     //a callback for calculating IK
     void OnAnimatorIK()
     {
-        Debug.Log("try");
         if (animator)
         {
 
