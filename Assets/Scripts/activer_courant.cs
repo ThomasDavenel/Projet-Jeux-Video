@@ -1,23 +1,51 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class activer_courant : MonoBehaviour
 {
+    public TextMeshPro text;
+    public GameObject axe;
+    private bool isActive;
+    private bool isEnter;
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+        text.color = new Color(0, 0, 0, 0);
+        isActive = false;
+        isEnter = false;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collider)
     {
-        Debug.Log("oui");
+        if(collider.gameObject.tag == "levier")
+        {
+            text.color = new Color(0, 0.4331563f, 1, 1);
+            isEnter = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider collider)
+    {
+        text.color = new Color(0, 0, 0, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        //if (GetComponent<BoxCollider>().isTrigger) Debug.Log("oui");
+        if(isEnter)
+        {
+            if (Input.GetKeyDown("e"))
+            {
+                text.color = new Color(0, 0, 0, 0);
+                isActive = true;
+            }
+        }
+        if(isActive)
+        {
+            axe.GetComponent<Animator>().enabled = true;
+        }
     }
 }

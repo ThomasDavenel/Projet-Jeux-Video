@@ -11,6 +11,8 @@ public class IKControl : MonoBehaviour
     public bool ikActive = false;
     public Transform rightHandObj = null;
     public Transform lookObj = null;
+    public Transform Hand;
+    public Shoot gun;
 
     void Start()
     {
@@ -20,13 +22,14 @@ public class IKControl : MonoBehaviour
     //a callback for calculating IK
     void OnAnimatorIK()
     {
-        Debug.Log("try");
         if (animator)
         {
-
             //if the IK is active, set the position and rotation directly to the goal. 
-            if (ikActive)
+            RaycastHit hitInfo = new RaycastHit();
+            bool hit = Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hitInfo);
+            if (hit)
             {
+                Vector3 cible = hitInfo.point;
 
                 // Set the look target position, if one has been assigned
                 if (lookObj != null)
@@ -36,15 +39,22 @@ public class IKControl : MonoBehaviour
                     Debug.Log("lookat");
                 }
 
+                //Debug.Log(Quaternion.Angle(Quaternion.LookRotation(rightHandObj.position - Hand.position), gameObject.transform.rotation));
+
                 // Set the right hand target position and rotation, if one has been assigned
-                if (rightHandObj != null)
+                if (Quaternion.Angle( Quaternion.LookRotation(cible - Hand.position),gameObject.transform.rotation)<90)
                 {
                     animator.SetIKPositionWeight(AvatarIKGoal.RightHand, 1);
                     animator.SetIKRotationWeight(AvatarIKGoal.RightHand, 1);
-                    animator.SetIKPosition(AvatarIKGoal.RightHand, rightHandObj.position);
-                    animator.SetIKRotation(AvatarIKGoal.RightHand, rightHandObj.rotation);
+                    animator.SetIKPosition(AvatarIKGoal.RightHand, cible);
+                    animator.SetIKRotation(AvatarIKGoal.RightHand, Quaternion.LookRotation(cible - Hand.position));
+                    
+                    if (Input.GetMouseButtonDown(0))
+                    {
+                        Debug.Log("Hit " + hitInfo.transform.gameObject.name);
+                        gun.ShootBullet();
+                    }
                 }
-
             }
 
             //if the IK is not active, set the position and rotation of the hand and head back to the original position
