@@ -38,7 +38,7 @@ public class defilement_text : MonoBehaviour
 
             GUI.contentColor = new Color(0.384313725f, 0.729411765f, 1);
             
-            GUI.BeginScrollView(new Rect(Screen.width * 0.2f, Screen.height * 0.57f, Screen.width * 0.65f, Screen.height * 0.4f), scrollposition, new Rect(0, -150, 500, nblines * 130));
+            GUI.BeginScrollView(new Rect(Screen.width * 0.2f, Screen.height * 0.57f, Screen.width * 0.95f, Screen.height * 0.4f), scrollposition, new Rect(0, -150, 500, nblines * 130));
             GUI.Label(new Rect(0, 50, 680, nblines * 60), scenar);
             GUI.skin.label.fontSize = 20;
             GUI.EndScrollView();

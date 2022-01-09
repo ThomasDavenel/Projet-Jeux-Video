@@ -7,7 +7,11 @@ public class ChangeScene : MonoBehaviour
 {
     public void LoadScene(string sceneName)
     {
-        Debug.Log("oui");
         SceneManager.LoadScene(sceneName);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }
