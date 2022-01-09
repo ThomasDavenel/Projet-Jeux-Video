@@ -3,13 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - ListBullet
-<<<<<<< HEAD
-  - levier
-=======
-  - JetPack
->>>>>>> 6aecbdc979fc22feef9490224eda816e7043568e
+  tags: []
   layers:
   - Default
   - TransparentFX

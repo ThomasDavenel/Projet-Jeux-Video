@@ -7,6 +7,7 @@ public class activer_courant : MonoBehaviour
 {
     public TextMeshPro text;
     public GameObject axe;
+    public List<Light> lumieres;
     private bool isActive;
     private bool isEnter;
     
@@ -46,6 +47,10 @@ public class activer_courant : MonoBehaviour
         if(isActive)
         {
             axe.GetComponent<Animator>().enabled = true;
+            foreach(Light l in lumieres)
+            {
+                l.intensity = 3;
+            }
         }
     }
 }
