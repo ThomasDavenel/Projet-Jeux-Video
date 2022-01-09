@@ -10,6 +10,7 @@ public class Shoot : MonoBehaviour
 
     public float rayDistance;
     public float speedBullet;
+    public float intervalEntre2Tirs;
     public GameObject[] l_Joueurs;
 
     private Vector3 pt1 = new Vector3(0, 0,0);
@@ -19,8 +20,6 @@ public class Shoot : MonoBehaviour
     public GameObject Bullet;
     public Transform bulletTransform;
     private Dictionary<GameObject, float> l_Bullet;
-
-    public bool player;
 
     private void Awake()
     {
@@ -37,47 +36,30 @@ public class Shoot : MonoBehaviour
     {
         dtShoot += Time.deltaTime;
 
-        if (dtShoot >0.2)
+        if (dtShoot > intervalEntre2Tirs)
         {
             isReadyToShoot = true;
         }
-        if (player)
+        //turn raycast
+        foreach (GameObject p in l_Joueurs)
         {
-            if (Input.GetMouseButtonDown(0))
+            RaycastHit hitTurn;
+            if (Physics.Raycast(transform.position, Vector3.Normalize(p.transform.position - transform.position), out hitTurn, rayDistance))
             {
-                if (GetComponent<AudioSource>())
+                if (hitTurn.collider.gameObject.CompareTag("Player"))
                 {
-                    GetComponent<AudioSource>().enabled = true;
-                    GetComponent<AudioSource>().Play();
-                }
-                GameObject b = Instantiate(Bullet, bulletTransform);
-                l_Bullet.Add(b, 0);
-            }
-        }
-        else
-        {
-            //turn raycast
-            foreach (GameObject p in l_Joueurs)
-            {
-                RaycastHit hitTurn;
-                if (Physics.Raycast(transform.position, Vector3.Normalize(p.transform.position - transform.position), out hitTurn, rayDistance))
-                {
-                    if (hitTurn.collider.gameObject.CompareTag("Player"))
+                    transform.LookAt(hitTurn.transform);
+                    if (isReadyToShoot)
                     {
-                        transform.LookAt(hitTurn.transform);
-                        if (isReadyToShoot)
-                        {
-                            isReadyToShoot = false;
-                            dtShoot = 0;
-                            //print("Shoot");
-                            GameObject b = Instantiate(Bullet, bulletTransform);
-                            l_Bullet.Add(b, 0);
-                        }
+                        isReadyToShoot = false;
+                        dtShoot = 0;
+                        //print("Shoot");
+                        GameObject b = Instantiate(Bullet, bulletTransform);
+                        l_Bullet.Add(b, 0);
                     }
                 }
-            };
-        }
-        
+            }
+        };               
 
         List<GameObject> bulletToDestroy = new List<GameObject>();
         List<GameObject> bulletToInc = new List<GameObject>();
@@ -104,4 +86,21 @@ public class Shoot : MonoBehaviour
             l_Bullet.Remove(b);
         }
     }
+
+    public void ShootBullet()
+    {
+        if (dtShoot > intervalEntre2Tirs)
+        {
+            dtShoot = 0;
+            if (GetComponent<AudioSource>())
+            {
+                GetComponent<AudioSource>().enabled = true;
+                GetComponent<AudioSource>().Play();
+            }
+            GameObject b = Instantiate(Bullet, bulletTransform);
+            l_Bullet.Add(b, 0);
+        }
+    }
+
 }
+

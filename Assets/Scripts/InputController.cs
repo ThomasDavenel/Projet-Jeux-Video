@@ -10,6 +10,8 @@ public class InputController : MonoBehaviour
 {
     public GameObject Character;
     public Animator RobotAnimator;
+    private AudioSource SoundJetPack;
+    private AudioSource SoundWalk;
     private Orientation m_orientation;
     private bool isJumping;
     public bool noFloor;
@@ -19,6 +21,8 @@ public class InputController : MonoBehaviour
     private float lastY;
 
     private bool turn;
+
+    private ParticleSystem[] l_particule;
     enum Orientation
     {
         Right,
@@ -33,6 +37,9 @@ public class InputController : MonoBehaviour
         noFloor = false;
         turn = false;
         lastY = Character.transform.position.y;
+        l_particule = Character.GetComponentsInChildren<ParticleSystem>();
+        SoundJetPack = GameObject.FindGameObjectWithTag("JetPack").GetComponent<AudioSource>();
+        SoundWalk = RobotAnimator.gameObject.GetComponent<AudioSource>();
     }
 
     void Update()
@@ -50,6 +57,7 @@ public class InputController : MonoBehaviour
             //Move
             if (Input.GetButtonDown("Move_Right"))
             {
+                if (SoundWalk) SoundWalk.Play();
                 if (m_orientation == Orientation.Left)
                 {
                     turn = true;
@@ -66,6 +74,7 @@ public class InputController : MonoBehaviour
 
             if (Input.GetButtonDown("Move_Left"))
             {
+                if (SoundWalk) SoundWalk.Play();
                 if (m_orientation == Orientation.Right)
                 {
                     turn = true;
@@ -81,18 +90,21 @@ public class InputController : MonoBehaviour
             }
             if ((Input.GetButton("Move_Right") || Input.GetButton("Move_Left")) && !turn)
             {
+                if (SoundWalk && !SoundWalk.isPlaying) SoundWalk.Play();
                 Move(Time.deltaTime);
             }
 
             //STOP
             if (Input.GetButtonUp("Move_Right") && m_orientation== Orientation.Right)
             {
+                if (SoundWalk) SoundWalk.Play();
                 resetAllTriggers();
                 RobotAnimator.SetTrigger("StopR");
                 Input.ResetInputAxes();
             }
             if (Input.GetButtonUp("Move_Left") && m_orientation == Orientation.Left)
             {
+                if (SoundWalk) SoundWalk.Play();
                 resetAllTriggers();
                 RobotAnimator.SetTrigger("StopL");
                 Input.ResetInputAxes();
@@ -101,6 +113,14 @@ public class InputController : MonoBehaviour
             //Jump
             if (Input.GetButtonDown("Jump"))
             {
+                //Audio JetPack
+                if(SoundJetPack) SoundJetPack.Play();
+                //PARTICULE
+                foreach (ParticleSystem p in l_particule)
+                {
+                    p.Play();
+                }
+
                 isJumping = true;
                 Jump();
                 if (m_orientation == Orientation.Right)
