@@ -32,4 +32,9 @@ public class Player : MonoBehaviour
             Debug.Log("Dead");
         }
     }
+
+    public bool IsAlive()
+    {
+        return isAlive;
+    }
 }
