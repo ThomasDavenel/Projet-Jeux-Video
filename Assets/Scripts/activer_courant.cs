@@ -40,7 +40,8 @@ public class activer_courant : MonoBehaviour
         {
             if (Input.GetKeyDown("e"))
             {
-                text.color = new Color(0, 0, 0, 0);
+                text.enabled = false;
+                GetComponent<AudioSource>().enabled = true;
                 isActive = true;
             }
         }
