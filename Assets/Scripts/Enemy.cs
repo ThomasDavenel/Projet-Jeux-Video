@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     public int nbPtsVie;
-    public Animator m_Animator;
 
     public void hitted(int damages = 1)
     {
@@ -21,7 +20,7 @@ public class Player : MonoBehaviour
     {
         if (nbPtsVie < 0)
         {
-            if(m_Animator)m_Animator.SetTrigger("DieR");
+            gameObject.SetActive(false);
             Debug.Log("Dead");
         }
     }

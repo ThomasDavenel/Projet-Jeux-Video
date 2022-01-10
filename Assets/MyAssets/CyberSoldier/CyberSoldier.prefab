@@ -9874,6 +9874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7214896247123098120}
   - component: {fileID: 7214896248228787497}
+  - component: {fileID: 8941111928965998469}
   m_Layer: 0
   m_Name: CyberSoldier
   m_TagString: Untagged
@@ -9916,6 +9917,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8941111928965998469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7214896247123322410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3762b93bb9b30f40aad31345238cc57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ikActive: 0
+  rightHandObj: {fileID: 0}
+  lookObj: {fileID: 0}
+  Hand: {fileID: 7214896247123098132}
+  gun: {fileID: 6577740053673067896}
 --- !u!1 &7214896247123322412
 GameObject:
   m_ObjectHideFlags: 0
@@ -11048,6 +11066,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pistol
       objectReference: {fileID: 0}
+    - target: {fileID: 1156955595360672480, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1965122323374653530, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -11104,13 +11126,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 2075945205864540943, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
+      propertyPath: bulletTransform
+      value: 
+      objectReference: {fileID: 7357935495437507942}
+    - target: {fileID: 2421614751826817809, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
+--- !u!4 &7357935495437507942 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2421614751826817809, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
+  m_PrefabInstance: {fileID: 5154350600870293111}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6684022201720385069 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1965122323374653530, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
   m_PrefabInstance: {fileID: 5154350600870293111}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6577740053673067896 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2075945205864540943, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
+  m_PrefabInstance: {fileID: 5154350600870293111}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de09305fefad76844af4664132c49350, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5453898859063420062
 PrefabInstance:
   m_ObjectHideFlags: 0

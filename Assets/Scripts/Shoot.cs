@@ -53,7 +53,7 @@ public class Shoot : MonoBehaviour
                     {
                         isReadyToShoot = false;
                         dtShoot = 0;
-                        //print("Shoot");
+                        print("Shoot");
                         GameObject b = Instantiate(Bullet, bulletTransform);
                         l_Bullet.Add(b, 0);
                     }

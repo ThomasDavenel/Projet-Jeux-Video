@@ -13,6 +13,7 @@ public class IKControl : MonoBehaviour
     public Transform lookObj = null;
     public Transform Hand;
     public Shoot gun;
+    private bool isPistolInHand;
 
     void Start()
     {
@@ -22,7 +23,7 @@ public class IKControl : MonoBehaviour
     //a callback for calculating IK
     void OnAnimatorIK()
     {
-        if (animator)
+        if (animator&&isPistolInHand)
         {
             //if the IK is active, set the position and rotation directly to the goal. 
             RaycastHit hitInfo = new RaycastHit();
@@ -47,7 +48,7 @@ public class IKControl : MonoBehaviour
                     animator.SetIKPositionWeight(AvatarIKGoal.RightHand, 1);
                     animator.SetIKRotationWeight(AvatarIKGoal.RightHand, 1);
                     animator.SetIKPosition(AvatarIKGoal.RightHand, cible);
-                    animator.SetIKRotation(AvatarIKGoal.RightHand, Quaternion.LookRotation(cible - Hand.position));
+                    animator.SetIKRotation(AvatarIKGoal.RightHand, Quaternion.LookRotation(cible - Hand.position) * Quaternion.Euler(0, 0, -90) );
                     
                     if (Input.GetMouseButtonDown(0))
                     {
@@ -65,5 +66,11 @@ public class IKControl : MonoBehaviour
                 animator.SetLookAtWeight(0);
             }
         }
+    }
+
+    public void ToggleIsPistolInHand()
+    {
+        isPistolInHand = !isPistolInHand;
+        gun.gameObject.SetActive(isPistolInHand);
     }
 }

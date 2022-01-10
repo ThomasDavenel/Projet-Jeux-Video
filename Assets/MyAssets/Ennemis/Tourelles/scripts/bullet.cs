@@ -17,6 +17,11 @@ public class bullet : MonoBehaviour
         {
             collision.gameObject.GetComponent<Player>().hitted();
         }
+        else if (collision.gameObject.CompareTag("Enemy"))
+        {
+            collision.gameObject.GetComponent<Enemy>().hitted();
+        }
+        Debug.Log(collision.gameObject.name);
         GetComponent<MeshRenderer>().enabled = false;
     }
 }

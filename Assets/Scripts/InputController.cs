@@ -16,6 +16,7 @@ public class InputController : MonoBehaviour
     private bool isJumping;
     public bool noFloor;
     private bool startJump;
+    private IKControl m_IKControl;
     public float coefJump = 0.08f;
 
     private float lastY;
@@ -40,6 +41,7 @@ public class InputController : MonoBehaviour
         l_particule = Character.GetComponentsInChildren<ParticleSystem>();
         SoundJetPack = GameObject.FindGameObjectWithTag("JetPack").GetComponent<AudioSource>();
         SoundWalk = RobotAnimator.gameObject.GetComponent<AudioSource>();
+        m_IKControl = RobotAnimator.gameObject.GetComponent<IKControl>();
     }
 
     void Update()
@@ -47,9 +49,14 @@ public class InputController : MonoBehaviour
 
         if (!isJumping)
         {
+            //Take Pistol
+            if (Input.GetButtonDown("TakePistol"))
+            {
+                m_IKControl.ToggleIsPistolInHand();
+            }
             //Check if falling
             //In progress
-            if(lastY- Character.transform.position.y > 0.001 && false)
+            if (lastY- Character.transform.position.y > 0.001 && false)
             {
                 CheckIfJumping();
             }
