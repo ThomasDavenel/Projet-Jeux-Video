@@ -47,7 +47,7 @@ public class Shoot : MonoBehaviour
             foreach (GameObject p in l_Joueurs)
             {
                 RaycastHit hitTurn;
-                if (Physics.Raycast(transform.position, Vector3.Normalize(p.transform.position - transform.position), out hitTurn, rayDistance))
+                if (Physics.Raycast(transform.position, Vector3.Normalize((p.transform.position + new Vector3(0,1f, 0)) - transform.position), out hitTurn, rayDistance))
                 {
                     if (hitTurn.collider.gameObject.CompareTag("Player"))
                     {
