@@ -17384,6 +17384,7 @@ GameObject:
   - component: {fileID: 1935400746}
   - component: {fileID: 1935400749}
   - component: {fileID: 1935400748}
+  - component: {fileID: 1935400750}
   - component: {fileID: 1935400747}
   m_Layer: 0
   m_Name: Plateforme
@@ -17468,6 +17469,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935400745}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1935400750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935400745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf4b49ae4180d14db50a32edaef2c1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1943357421
 GameObject:
   m_ObjectHideFlags: 0
@@ -24782,7 +24795,7 @@ GameObject:
   - component: {fileID: 6929607201025868169}
   m_Layer: 0
   m_Name: Charactere
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
