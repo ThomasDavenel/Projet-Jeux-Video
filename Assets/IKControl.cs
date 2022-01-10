@@ -37,7 +37,7 @@ public class IKControl : MonoBehaviour
                 {
                     animator.SetLookAtWeight(1);
                     animator.SetLookAtPosition(lookObj.position);
-                    Debug.Log("lookat");
+                    //Debug.Log("lookat");
                 }
 
                 //Debug.Log(Quaternion.Angle(Quaternion.LookRotation(rightHandObj.position - Hand.position), gameObject.transform.rotation));
@@ -52,7 +52,7 @@ public class IKControl : MonoBehaviour
                     
                     if (Input.GetMouseButtonDown(0))
                     {
-                        Debug.Log("Hit " + hitInfo.transform.gameObject.name);
+                        //Debug.Log("Hit " + hitInfo.transform.gameObject.name);
                         gun.ShootBullet();
                     }
                 }

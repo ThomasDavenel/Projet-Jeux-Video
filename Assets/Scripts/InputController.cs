@@ -8,6 +8,7 @@ using UnityEngine.UI;
 
 public class InputController : MonoBehaviour
 {
+    public bool havePistol;
     public GameObject Character;
     public Animator RobotAnimator;
     private AudioSource SoundJetPack;
@@ -32,6 +33,7 @@ public class InputController : MonoBehaviour
 
     private void Awake()
     {
+        havePistol = false;
         m_orientation = Orientation.Right;
         isJumping = false;
         startJump = false;
@@ -46,113 +48,115 @@ public class InputController : MonoBehaviour
 
     void Update()
     {
-
-        if (!isJumping)
+        if (Character.GetComponent<Player>().IsAlive())
         {
-            //Take Pistol
-            if (Input.GetButtonDown("TakePistol"))
+            if (!isJumping)
             {
-                m_IKControl.ToggleIsPistolInHand();
-            }
-            //Check if falling
-            //In progress
-            if (lastY- Character.transform.position.y > 0.001 && false)
-            {
-                CheckIfJumping();
-            }
-            lastY = Character.transform.position.y;
-            //Move
-            if (Input.GetButtonDown("Move_Right"))
-            {
-                if (SoundWalk) SoundWalk.Play();
-                if (m_orientation == Orientation.Left)
+                //Take Pistol
+                if (havePistol && Input.GetButtonDown("TakePistol"))
                 {
-                    turn = true;
-                    resetAllTriggers();
-                    RobotAnimator.SetTrigger("WalkR");
-                    m_orientation = Orientation.Right;
+                    m_IKControl.ToggleIsPistolInHand();
                 }
-                else
+                //Check if falling
+                //In progress
+                if (lastY - Character.transform.position.y > 0.001 && false)
                 {
-                    resetAllTriggers();
-                    RobotAnimator.SetTrigger("WalkR");
+                    CheckIfJumping();
                 }
-            }
-
-            if (Input.GetButtonDown("Move_Left"))
-            {
-                if (SoundWalk) SoundWalk.Play();
-                if (m_orientation == Orientation.Right)
+                lastY = Character.transform.position.y;
+                //Move
+                if (Input.GetButtonDown("Move_Right"))
                 {
-                    turn = true;
-                    resetAllTriggers(); 
-                    RobotAnimator.SetTrigger("WalkL");
-                    m_orientation = Orientation.Left;
-                }
-                else
-                {
-                    resetAllTriggers();
-                    RobotAnimator.SetTrigger("WalkL");
-                }
-            }
-            if ((Input.GetButton("Move_Right") || Input.GetButton("Move_Left")) && !turn)
-            {
-                if (SoundWalk && !SoundWalk.isPlaying) SoundWalk.Play();
-                Move(Time.deltaTime);
-            }
-
-            //STOP
-            if (Input.GetButtonUp("Move_Right") && m_orientation== Orientation.Right)
-            {
-                if (SoundWalk) SoundWalk.Play();
-                resetAllTriggers();
-                RobotAnimator.SetTrigger("StopR");
-                Input.ResetInputAxes();
-            }
-            if (Input.GetButtonUp("Move_Left") && m_orientation == Orientation.Left)
-            {
-                if (SoundWalk) SoundWalk.Play();
-                resetAllTriggers();
-                RobotAnimator.SetTrigger("StopL");
-                Input.ResetInputAxes();
-            }
-
-            //Jump
-            if (Input.GetButtonDown("Jump"))
-            {
-                //Audio JetPack
-                if(SoundJetPack) SoundJetPack.Play();
-                //PARTICULE
-                foreach (ParticleSystem p in l_particule)
-                {
-                    p.Play();
+                    if (SoundWalk) SoundWalk.Play();
+                    if (m_orientation == Orientation.Left)
+                    {
+                        turn = true;
+                        resetAllTriggers();
+                        RobotAnimator.SetTrigger("WalkR");
+                        m_orientation = Orientation.Right;
+                    }
+                    else
+                    {
+                        resetAllTriggers();
+                        RobotAnimator.SetTrigger("WalkR");
+                    }
                 }
 
-                isJumping = true;
-                Jump();
-                if (m_orientation == Orientation.Right)
+                if (Input.GetButtonDown("Move_Left"))
                 {
-                    resetAllTriggers();
-                    RobotAnimator.SetTrigger("JumpR");
+                    if (SoundWalk) SoundWalk.Play();
+                    if (m_orientation == Orientation.Right)
+                    {
+                        turn = true;
+                        resetAllTriggers();
+                        RobotAnimator.SetTrigger("WalkL");
+                        m_orientation = Orientation.Left;
+                    }
+                    else
+                    {
+                        resetAllTriggers();
+                        RobotAnimator.SetTrigger("WalkL");
+                    }
                 }
-                else
+                if ((Input.GetButton("Move_Right") || Input.GetButton("Move_Left")) && !turn)
                 {
+                    if (SoundWalk && !SoundWalk.isPlaying) SoundWalk.Play();
+                    Move(Time.deltaTime);
+                }
+
+                //STOP
+                if (Input.GetButtonUp("Move_Right") && m_orientation == Orientation.Right)
+                {
+                    if (SoundWalk) SoundWalk.Play();
                     resetAllTriggers();
-                    RobotAnimator.SetTrigger("JumpL");
+                    RobotAnimator.SetTrigger("StopR");
+                    Input.ResetInputAxes();
+                }
+                if (Input.GetButtonUp("Move_Left") && m_orientation == Orientation.Left)
+                {
+                    if (SoundWalk) SoundWalk.Play();
+                    resetAllTriggers();
+                    RobotAnimator.SetTrigger("StopL");
+                    Input.ResetInputAxes();
+                }
+
+                //Jump
+                if (Input.GetButtonDown("Jump"))
+                {
+                    //Audio JetPack
+                    if (SoundJetPack) SoundJetPack.Play();
+                    //PARTICULE
+                    foreach (ParticleSystem p in l_particule)
+                    {
+                        p.Play();
+                    }
+
+                    isJumping = true;
+                    Jump();
+                    if (m_orientation == Orientation.Right)
+                    {
+                        resetAllTriggers();
+                        RobotAnimator.SetTrigger("JumpR");
+                    }
+                    else
+                    {
+                        resetAllTriggers();
+                        RobotAnimator.SetTrigger("JumpL");
+                    }
                 }
             }
-        }
-        else
-        {
-            if (Input.GetButton("Move_Left"))
+            else
             {
+                if (Input.GetButton("Move_Left"))
+                {
                     Character.transform.position += 3 * Time.deltaTime * -Character.transform.forward;
-            }
-            if (Input.GetButton("Move_Right"))
-            {
+                }
+                if (Input.GetButton("Move_Right"))
+                {
                     Character.transform.position += 3 * Time.deltaTime * Character.transform.forward;
+                }
             }
-        }
+        }        
     }
 
     public void Move(float dt)

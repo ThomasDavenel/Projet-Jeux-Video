@@ -44,14 +44,21 @@ public class Shoot : MonoBehaviour
         //turn raycast
         if (isTurret)
         {
+            if (!GetComponentInParent<Enemy>().IsAlive())
+            {
+                foreach(KeyValuePair<GameObject, float> bullet in l_Bullet)
+                {
+                    bullet.Key.SetActive(false);
+                }
+            }
             foreach (GameObject p in l_Joueurs)
             {
                 RaycastHit hitTurn;
-                if (Physics.Raycast(transform.position, Vector3.Normalize((p.transform.position + new Vector3(0,1f, 0)) - transform.position), out hitTurn, rayDistance))
+                if (Physics.Raycast(transform.position, Vector3.Normalize((p.transform.position) - transform.position), out hitTurn, rayDistance))
                 {
                     if (hitTurn.collider.gameObject.CompareTag("Player"))
                     {
-                        transform.LookAt(hitTurn.transform);
+                        transform.LookAt(hitTurn.transform.position + new Vector3(0, 1f, 0));
                         if (isReadyToShoot)
                         {
                             isReadyToShoot = false;

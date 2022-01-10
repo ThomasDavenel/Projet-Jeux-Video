@@ -472,6 +472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Charactere
       objectReference: {fileID: 0}
+    - target: {fileID: 6929607200364645752, guid: 9166eac796319e74bbf5882f5da550f1, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 6929607200364645755, guid: 9166eac796319e74bbf5882f5da550f1, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -711,6 +715,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6929607200364645752, guid: 9166eac796319e74bbf5882f5da550f1, type: 3}
   m_PrefabInstance: {fileID: 612498948}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &979163301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979163295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd7cc0fe3ad05a42a17a0e787c639ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nbPtsVie: 5
+  m_Animator: {fileID: 440851002}
 --- !u!1 &1098237957
 GameObject:
   m_ObjectHideFlags: 0
