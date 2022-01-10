@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -30,6 +31,10 @@ public class Player : MonoBehaviour
             isAlive = false;
             if (m_Animator)m_Animator.SetTrigger("DieR");
             Debug.Log("Dead");
+        }
+        if (m_Animator.GetCurrentAnimatorStateInfo(0).IsName("DyingR2"))
+        {
+            SceneManager.LoadScene("SceneMort");
         }
     }
 
