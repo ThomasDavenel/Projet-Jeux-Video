@@ -6,6 +6,12 @@ public class Player : MonoBehaviour
 {
     public int nbPtsVie;
     public Animator m_Animator;
+    private bool isAlive;
+
+    private void Awake()
+    {
+        isAlive = true;
+    }
 
     public void hitted(int damages = 1)
     {
@@ -19,9 +25,10 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if (nbPtsVie < 0)
+        if (nbPtsVie <= 0 && isAlive)
         {
-            if(m_Animator)m_Animator.SetTrigger("DieR");
+            isAlive = false;
+            if (m_Animator)m_Animator.SetTrigger("DieR");
             Debug.Log("Dead");
         }
     }

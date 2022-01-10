@@ -12,6 +12,7 @@ public class Shoot : MonoBehaviour
     public float speedBullet;
     public float intervalEntre2Tirs;
     public GameObject[] l_Joueurs;
+    public bool isTurret;
 
     private Vector3 pt1 = new Vector3(0, 0,0);
     private Vector3 pt2 = new Vector3(1, 0, 0);
@@ -41,25 +42,29 @@ public class Shoot : MonoBehaviour
             isReadyToShoot = true;
         }
         //turn raycast
-        foreach (GameObject p in l_Joueurs)
+        if (isTurret)
         {
-            RaycastHit hitTurn;
-            if (Physics.Raycast(transform.position, Vector3.Normalize(p.transform.position - transform.position), out hitTurn, rayDistance))
+            foreach (GameObject p in l_Joueurs)
             {
-                if (hitTurn.collider.gameObject.CompareTag("Player"))
+                RaycastHit hitTurn;
+                if (Physics.Raycast(transform.position, Vector3.Normalize(p.transform.position - transform.position), out hitTurn, rayDistance))
                 {
-                    transform.LookAt(hitTurn.transform);
-                    if (isReadyToShoot)
+                    if (hitTurn.collider.gameObject.CompareTag("Player"))
                     {
-                        isReadyToShoot = false;
-                        dtShoot = 0;
-                        print("Shoot");
-                        GameObject b = Instantiate(Bullet, bulletTransform);
-                        l_Bullet.Add(b, 0);
+                        transform.LookAt(hitTurn.transform);
+                        if (isReadyToShoot)
+                        {
+                            isReadyToShoot = false;
+                            dtShoot = 0;
+                            //print("Shoot");
+                            GameObject b = Instantiate(Bullet, bulletTransform);
+                            l_Bullet.Add(b, 0);
+                        }
                     }
                 }
-            }
-        };               
+            };
+        }
+              
 
         List<GameObject> bulletToDestroy = new List<GameObject>();
         List<GameObject> bulletToInc = new List<GameObject>();

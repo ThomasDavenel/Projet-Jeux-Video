@@ -5,7 +5,12 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public int nbPtsVie;
+    private bool isAlive;
 
+    private void Awake()
+    {
+        isAlive = true;
+    }
     public void hitted(int damages = 1)
     {
         nbPtsVie -= damages;
@@ -18,10 +23,23 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
-        if (nbPtsVie < 0)
+        if (nbPtsVie < 0 && isAlive)
         {
-            gameObject.SetActive(false);
-            Debug.Log("Dead");
+            isAlive = false;
+            foreach(MeshRenderer m in gameObject.GetComponentsInChildren<MeshRenderer>())
+            {
+                m.enabled = false;
+            }
+            ParticleSystem p = gameObject.GetComponentInChildren<ParticleSystem>();
+            if (p) p.Play();
+        }
+        if (!isAlive)
+        {
+            ParticleSystem p = gameObject.GetComponentInChildren<ParticleSystem>();
+            if (!p.isPlaying)
+            {
+                gameObject.SetActive(false);
+            }
         }
     }
 }

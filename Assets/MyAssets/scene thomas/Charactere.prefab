@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75bef6bddac961046a50dbd6a3f61905, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 0}
+  text: {fileID: 5612656218607602096}
   axe: {fileID: 0}
   lumieres: []
 --- !u!1 &6929607200811238300
@@ -352,6 +352,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7595744736854425776, guid: 063d689ad91f649488397b60a35b0c07, type: 3}
   m_PrefabInstance: {fileID: 2633946692985948423}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5612656218607602096 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7595744736854425783, guid: 063d689ad91f649488397b60a35b0c07, type: 3}
+  m_PrefabInstance: {fileID: 2633946692985948423}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7025407652049702193
 PrefabInstance:
   m_ObjectHideFlags: 0

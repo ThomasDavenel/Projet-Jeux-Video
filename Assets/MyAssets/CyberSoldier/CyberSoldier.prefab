@@ -11076,27 +11076,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1965122323374653530, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1965122323374653530, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1965122323374653530, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1965122323374653530, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.003
+      value: -0.155
       objectReference: {fileID: 0}
     - target: {fileID: 1965122323374653530, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.112
+      value: 0.883
       objectReference: {fileID: 0}
     - target: {fileID: 1965122323374653530, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.107
+      value: -0.0654
       objectReference: {fileID: 0}
     - target: {fileID: 1965122323374653530, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11129,18 +11129,13 @@ PrefabInstance:
     - target: {fileID: 2075945205864540943, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
       propertyPath: bulletTransform
       value: 
-      objectReference: {fileID: 7357935495437507942}
+      objectReference: {fileID: 0}
     - target: {fileID: 2421614751826817809, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
---- !u!4 &7357935495437507942 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2421614751826817809, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
-  m_PrefabInstance: {fileID: 5154350600870293111}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6684022201720385069 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1965122323374653530, guid: 53799fa95ebda404386fbca52ce805f3, type: 3}
