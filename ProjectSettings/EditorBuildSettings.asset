@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene_Guilaume.unity
     guid: 9b2194ccb4eddb649b8fe59f1c4f987f
+  - enabled: 1
+    path: Assets/Scenes/SceneVictoire.unity
+    guid: 7837918e91c20994082f4b2fd097826c
+  - enabled: 1
+    path: Assets/Scenes/SceneMort.unity
+    guid: 31b8269a64af02646a6758ed93f38754
   m_configObjects: {}

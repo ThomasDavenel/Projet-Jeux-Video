@@ -8,6 +8,7 @@ using UnityEngine.UI;
 
 public class InputController : MonoBehaviour
 {
+    public bool havePistol;
     public GameObject Character;
     public Animator RobotAnimator;
     private AudioSource SoundJetPack;
@@ -32,6 +33,7 @@ public class InputController : MonoBehaviour
 
     private void Awake()
     {
+        havePistol = false;
         m_orientation = Orientation.Right;
         isJumping = false;
         startJump = false;
@@ -50,7 +52,7 @@ public class InputController : MonoBehaviour
         if (!isJumping)
         {
             //Take Pistol
-            if (Input.GetButtonDown("TakePistol"))
+            if (havePistol && Input.GetButtonDown("TakePistol"))
             {
                 m_IKControl.ToggleIsPistolInHand();
             }
