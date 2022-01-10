@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 706da8b7c0375e74a95358b0765b3b4d
+  - enabled: 1
+    path: Assets/Scenes/Scene_Guilaume.unity
+    guid: 9b2194ccb4eddb649b8fe59f1c4f987f
   m_configObjects: {}
