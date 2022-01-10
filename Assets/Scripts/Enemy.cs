@@ -42,4 +42,8 @@ public class Enemy : MonoBehaviour
             }
         }
     }
+    public bool IsAlive()
+    {
+        return isAlive;
+    }
 }

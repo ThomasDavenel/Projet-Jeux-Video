@@ -44,6 +44,13 @@ public class Shoot : MonoBehaviour
         //turn raycast
         if (isTurret)
         {
+            if (!GetComponentInParent<Enemy>().IsAlive())
+            {
+                foreach(KeyValuePair<GameObject, float> bullet in l_Bullet)
+                {
+                    bullet.Key.SetActive(false);
+                }
+            }
             foreach (GameObject p in l_Joueurs)
             {
                 RaycastHit hitTurn;
