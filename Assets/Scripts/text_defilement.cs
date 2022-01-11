@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class text_defilement : MonoBehaviour
 {
-    private float scrollSpeed = 4.3f;
+    private float scrollSpeed = 4.5f;
     public GameObject m_camera;
 
     // Start is called before the first frame update
@@ -35,6 +35,6 @@ public class text_defilement : MonoBehaviour
 
             if (!GetComponent<AudioSource>().isPlaying) LoadScene("Scene_Guilaume");
         }
-        else m_camera.transform.position = new Vector3(m_camera.transform.position.x, m_camera.transform.position.y, m_camera.transform.position.z + 0.4f);
+        else m_camera.transform.position = new Vector3(m_camera.transform.position.x, m_camera.transform.position.y, m_camera.transform.position.z + 3.5f);
     }
 }
