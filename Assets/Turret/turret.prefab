@@ -187,8 +187,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de09305fefad76844af4664132c49350, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rayDistance: 10
-  speedBullet: 2
+  rayDistance: 25
+  speedBullet: 2.5
   intervalEntre2Tirs: 0.5
   l_Joueurs: []
   isTurret: 1
